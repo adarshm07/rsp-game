@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock - Paper - Scissor</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="rsp-container">
+            <h2 class="rsp">Play Rock Paper Scissor</h2>
+        </div>
+        <div class="flex-box" id="flexbox">
+            <img class="rspImg" id="rock" src="./rock.png" alt="" onclick="rpsGame(this)">
+            <img class="rspImg" id="paper" src="./paper.png" alt="" onclick="rpsGame(this)">
+            <img class="rspImg" id="scissor" src="./scissor.png" alt="" onclick="rpsGame(this)">
+        </div>
+        <div id="isChoice"></div>
+        <div class="messageDiv">
+            <p id="messageDiv"></p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
